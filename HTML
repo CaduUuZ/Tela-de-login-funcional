@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            color: #390;
+            margin-top: 0;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: calc(100% - 24px);
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4c4;
+            color: #fff;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <img src="OIP (1).jpg">
+    <div class="container">
+        <h2>Faz login meu dog</h2>
+        <form>
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" placeholder="Bota o usuário ai meu dog" />
+            
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Bota a senha ai meu dog" />
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
